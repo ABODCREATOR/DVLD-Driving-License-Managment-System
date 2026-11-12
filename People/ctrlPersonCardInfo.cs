@@ -1,4 +1,4 @@
-using Driving_License_Management_System.DVLD_Business;
+﻿using Driving_License_Management_System.DVLD_Business;
 using Driving_License_Management_System.Properties;
 using System;
 using System.Collections.Generic;
@@ -14,8 +14,6 @@ using Driving_License_Management_System.Utilities;
 
 namespace Driving_License_Management_System.People
 {
-
-    // This File is a User Control That You Can Build it and Reuse it with your entire solution in winforms 
     public partial class ctrlPersonCardInfo : UserControl
     {
         private clsPerson _Person;
