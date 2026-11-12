@@ -1,4 +1,4 @@
-using Driving_License_Management_System.ApplicationTypes;
+﻿using Driving_License_Management_System.ApplicationTypes;
 using Driving_License_Management_System.Drivers;
 using Driving_License_Management_System.People;
 using Driving_License_Management_System.Tests;
@@ -54,7 +54,7 @@ namespace Driving_License_Management_System.Login___Assets
 
         private void manageApplicationTypesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmListApplications FRMLISTAPP = new FrmListApplications();
+            FrmListApplicationTypes FRMLISTAPP = new FrmListApplicationTypes();
             FRMLISTAPP.ShowDialog();
             
         }
