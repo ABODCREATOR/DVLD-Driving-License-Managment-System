@@ -1,4 +1,4 @@
-using Driving_License_Management_System.DataAccess;
+﻿using Driving_License_Management_System.DataAccess;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -10,10 +10,10 @@ namespace Driving_License_Management_System.DVLD_Business
 {
     public  class clsApplicationTypes
     {
-        private int ID { get; set; }
+        public int ID { get; set; }
        
-        private float Fees { get; set; }
-        private string Title { get; set; }
+        public float Fees { get; set; }
+        public string Title { get; set; }
 
         public clsApplicationTypes()
         {
@@ -41,7 +41,7 @@ namespace Driving_License_Management_System.DVLD_Business
             else
                 return null;
         }
-        public static bool _AddNewApplicationType(string Title , float fees)
+        public  bool _AddNewApplicationType(string Title , float fees)
         {
             int ID = clsApplicationTypesData.AddNewApplicationType(Title , fees);
             return ID != -1;
